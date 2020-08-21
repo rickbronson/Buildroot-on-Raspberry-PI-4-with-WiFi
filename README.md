@@ -30,6 +30,25 @@ Insert SD Card in Raspberry PI 4 and power up while watching the serial port via
 minicom USB0 -w -C ~/minicom.USB0-rpi4.cap
 ```
 
+When it prompts you for login type "root" and do the following to setup your WiFi:
+
+```
+# wpa_cli
+scan
+scan_results
+remove_network 0
+add_network
+set_network 0 ssid "YourRouterSSID"
+set_network 0 psk "YourPasscode"
+enable_network 0
+save_config
+status
+quit
+reboot
+```
+
+When it reboots it should connect to your router.
+
 3. Hookup USB-Serial
 --------------
 
