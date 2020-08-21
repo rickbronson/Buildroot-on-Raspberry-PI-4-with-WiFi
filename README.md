@@ -36,7 +36,7 @@ minicom USB0 -w -C ~/minicom.USB0-rpi4.cap
 --------------
 
 Simplified hookup of the Raspberry PI 4 with serial USB
-![Jtag hookup](https://github.com/rickbronson/GD32VF103-Firmware-Library-Makefiles/blob/master/schematic1.png "Jtag hookup")
+![USB Serial hookup](https://github.com/rickbronson/Buildroot-on-Raspberry-PI-4-with-WiFi/blob/master/schematic1.png "USB Serial hookup")
 
 4. Comments/suggestions
 
