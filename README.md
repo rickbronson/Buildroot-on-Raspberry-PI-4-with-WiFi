@@ -1,9 +1,7 @@
   Buildroot-on-Raspberry-PI-4-with-WiFi
 ==========================================
 
-The cool thing about Buildroot on Raspberry Pi 4 is that it boots in about 10 seconds into Linux.
-
-This is everything you need to build the Buildroot-on-Raspberry-PI-4-with-WiFi under Linux.  It consists of an upper level Makefile that get's and un-archive's Buildroot, then fixes up the .config file, and finally copies over some needed WiFi files to the target dir
+This is everything you need to build the Buildroot-on-Raspberry-PI-4-with-WiFi under Linux.  Buildroot is a super lightweight embedded distribution of Linux that cuts out all the fluff.  The cool thing about Buildroot on Raspberry Pi 4 is that it boots in about 10 seconds into Linux.  It consists of Makefile that get's and un-archive's Buildroot, then fixes up the .config file, and finally copies over some needed WiFi files to the target dir.
 
 Debian Buster was used to build.
 
